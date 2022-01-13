@@ -28,6 +28,9 @@ const Box = styled.div`
   animation: ${rotationAnimation} 1s linear infinite;
   span {
     font-size: 36px;
+    &:hover {
+      font-size: 100px;
+    }
   }
 `;
 
