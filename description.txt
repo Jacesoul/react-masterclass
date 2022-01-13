@@ -1,2 +1,3 @@
 ### Styled-components
 - npm i styled-components
+- props는 컴포넌트에 데이터를 보내는 방법이다. 
