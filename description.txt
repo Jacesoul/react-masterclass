@@ -3,3 +3,10 @@
 - props는 컴포넌트에 데이터를 보내는 방법이다. 
 - theme이란 기본적으로 모든 색상들을 가지고 있는 object이다. 모든 색깔을 하나의 object안에 넣어놨기 때문에 매우 유용하다. 
 - dark/light 모드를 가지고 싶다면, property들의 이름이 같아야한다.
+
+### TypeScript
+- TypeScript는 JavaScript를 기반으로 한 프로그래밍 언어이다. 
+- TypeScript는 strongly-typed 언어이다. 
+- strongly-typed란 프로그래밍 언어가 작동하기 전에 type을 확인을 한다는 것이다.
+- 코드에 실수가 있어도, 프로그램이 작동하기 전에 TypeScript가 우리에게 알려준다.
+- 브라우저가 이해할수 있는 유일한 프로그래밍 언어는 JavaScript이기 때문에 사용자에게 publish 할때 TypeScript가 compile해서 평범한 JavaScript로 만들어준다.
