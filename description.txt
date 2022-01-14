@@ -1,3 +1,5 @@
 ### Styled-components
 - npm i styled-components
 - props는 컴포넌트에 데이터를 보내는 방법이다. 
+- theme이란 기본적으로 모든 색상들을 가지고 있는 object이다. 모든 색깔을 하나의 object안에 넣어놨기 때문에 매우 유용하다. 
+- dark/light 모드를 가지고 싶다면, property들의 이름이 같아야한다.
