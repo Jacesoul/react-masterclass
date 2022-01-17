@@ -10,3 +10,7 @@
 - strongly-typed란 프로그래밍 언어가 작동하기 전에 type을 확인을 한다는 것이다.
 - 코드에 실수가 있어도, 프로그램이 작동하기 전에 TypeScript가 우리에게 알려준다.
 - 브라우저가 이해할수 있는 유일한 프로그래밍 언어는 JavaScript이기 때문에 사용자에게 publish 할때 TypeScript가 compile해서 평범한 JavaScript로 만들어준다.
+- Prop Types는 prop이 거기에 있는지 없는지 확인을 해주지만, 코드를 실행한 "후"에만 확인이 가능하다. 
+- 우리가 TypeScript를 사용하는 이유는 코드가 실행되기 "전"에 오류를 확인하기 위해서이다. 
+- 그렇기 때문에 Prop Types를 사용하지 않고 prop들을 TypeScript로 보호해준다. 
+- interface란 object shape(객체모양)을 TypeScript에게 설명해주는 TypeScript의 개념이다. 즉, interfaces는 object를 설명해주는것이다.
