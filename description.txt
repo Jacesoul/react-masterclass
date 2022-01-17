@@ -17,3 +17,6 @@
 - default props / optional props
 - borderColor?: string는 borderColor : string | undefined 와 같은 의미이다. 
 - useState에서 number와 string을 모두 사용하고 싶다면 useState<number | string>(); 이렇게 명시해주면된다.
+- TypeScript와 styled-components연결 
+- npm install @types/styled-components
+- styled.d.ts파일 생성
