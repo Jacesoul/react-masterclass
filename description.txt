@@ -14,3 +14,5 @@
 - 우리가 TypeScript를 사용하는 이유는 코드가 실행되기 "전"에 오류를 확인하기 위해서이다. 
 - 그렇기 때문에 Prop Types를 사용하지 않고 prop들을 TypeScript로 보호해준다. 
 - interface란 object shape(객체모양)을 TypeScript에게 설명해주는 TypeScript의 개념이다. 즉, interfaces는 object를 설명해주는것이다.
+- default props / optional props
+- borderColor?: string는 borderColor : string | undefined 와 같은 의미이다. 
