@@ -34,3 +34,4 @@
 - 그렇기 때문에 이 hooks에서 coinId라고 불리는것을 사용하고 있다고 알려주고 있는것이다. 하지만 coinId는 URL에 위치하고 있어서 절대로 변하지 않는다. 
 -Nested router는 route안에 있는 route이다. 
 - useRouteMatch라는 hook은 유저가 특정한 URL에 있는지의 여부를 알려주게 된다. 만약 선택한 URL에 들어가 있다면 object를 받는다. 들어가 있지 않다면 null을 받는다.
+- react query는 데이터를 캐시에 저장해두기 때문에 갔던 url에 다시 돌아와도 로딩을 하지 않는다.
