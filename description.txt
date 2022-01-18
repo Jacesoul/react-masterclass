@@ -27,3 +27,4 @@
 - npm i react-query
 - react-router-dom은 어플리케이션에 URL를 가질수 있도록 해주고 기본적으로 각기 다른 화면을 갖도록 해준다.
 - createGlobalStyle는 한 컴포넌트를 만들수 있게 해주는데 렌더링 될 때, 그 컴포넌트는 전역 스코프에 스타일을 올려준다.
+- useEffect 함수를 사용하면 코드가 component의 시작할때 실행될지, component가 끝날때 실행될지 또한 뭐든 변화가 일어날때 실행할지를 고를수 있다.
