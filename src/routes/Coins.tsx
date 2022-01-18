@@ -23,14 +23,14 @@ const Coin = styled.li`
   margin-bottom: 10px;
   border-radius: 15px;
   a {
+    display: flex;
+    align-items: center;
     padding: 20px;
-    display: block;
     transition: color 0.3s ease-in;
   }
   &:hover {
     a {
       color: ${(props) => props.theme.accentColor};
-      display: block;
     }
   }
 `;
@@ -43,6 +43,12 @@ const Title = styled.h1`
 const Loader = styled.span`
   text-align: center;
   display: block;
+`;
+
+const Img = styled.img`
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 `;
 
 interface CoinInterface {
@@ -67,6 +73,7 @@ function Coins() {
     })();
     // ()()에서 앞의 ()가 즉시 실행된다.
   }, []);
+  console.log(coins);
   return (
     <Container>
       <Header>
@@ -78,7 +85,18 @@ function Coins() {
         <CoinsList>
           {coins.map((coin) => (
             <Coin key={coin.id}>
-              <Link to={`/${coin.id}`}>{coin.name} &rarr;</Link>
+              <Link
+                to={{
+                  pathname: `/${coin.id}`,
+                  state: { name: coin.name },
+                }}
+              >
+                <Img
+                  src={`https://cryptoicon-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}
+`}
+                ></Img>
+                {coin.name} &rarr;
+              </Link>
             </Coin>
           ))}
         </CoinsList>
