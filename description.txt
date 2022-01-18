@@ -26,5 +26,4 @@
 - npm i react-router-dom@5.3.0
 - npm i react-query
 - react-router-dom은 어플리케이션에 URL를 가질수 있도록 해주고 기본적으로 각기 다른 화면을 갖도록 해준다.
-/ => All coins
-/:id => Coin Detail
+- createGlobalStyle는 한 컴포넌트를 만들수 있게 해주는데 렌더링 될 때, 그 컴포넌트는 전역 스코프에 스타일을 올려준다.
