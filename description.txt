@@ -44,3 +44,7 @@
 1. 홈으로 가는 버튼 만들기 
 2. price탭에서 좀더 많은 가격의 정보를 보여주기 
 3. 만들었던 line chart를 Candlestick chart로 변경(참고 : https://apexcharts.com/react-chart-demos/candlestick-charts/basic/)
+
+### State Management
+- Recoil은 React JS에서 사용할수 있는 state management 라이브러리이다. 
+- Recoil없이 다크/라이트모드를 구현하기 위해서는 먼저 index.tsx에 있는 ThemeProvider를 app.tsx로 옮긴다. 옮기는 이유는 state를 사용하기 위해서이다. 
