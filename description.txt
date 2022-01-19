@@ -58,3 +58,4 @@ App(isDark, modifierFn)
 - state management를 사용하면 부모가 자식에게 prop을 내려주는 계층 구조 대신에 state를 어떤 비눗방울(atom)에 넣고 다른 컴포넌트에서 접근이 가능하게 할수 있다.
 - Recoil은 global state를 어플리케이션의 분리된 공간에서 관리하는 것이다. 
 - npm install recoil
+- Recoil을 사용할때, 사용할 state를 서로 분리된 Atom에 넣어놓는다.
