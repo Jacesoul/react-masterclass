@@ -51,8 +51,10 @@
 
 App(isDark, modifierFn)
 -> Router -> Coins(modifierFn)
--> Router -> Coin -> Chart(isDark)
+-> Router -> Coin -> Chart(isDark) 
 
 - global state는 어플리케이션 전체에서 공유되는 state이다. 
 - 만약 isLoggedIn이라는 state를 설정했을때 홈페이지 전체에서 관리가 되어야한다. 기존의 방식으로는 app.tsx에서 다른 모든 페이지에 공유를 해야한다. 이러한 이유로 state management가 필요하다.
-- state management를 사용하면 부모가 자식에게 prop을 내려주는 계층 구조 대신에 state를 어떤 비눗방울에 넣고 다른 컴포넌트에서 접근이 가능하게 할수 있다.
+- state management를 사용하면 부모가 자식에게 prop을 내려주는 계층 구조 대신에 state를 어떤 비눗방울(atom)에 넣고 다른 컴포넌트에서 접근이 가능하게 할수 있다.
+- Recoil은 global state를 어플리케이션의 분리된 공간에서 관리하는 것이다. 
+- npm install recoil
