@@ -51,9 +51,21 @@ function Chart({ coinId }: ChartProps) {
             grid: { show: false },
             yaxis: { show: false },
             xaxis: {
+              type: "datetime",
               labels: { show: false },
               axisTicks: { show: false },
               axisBorder: { show: false },
+              categories: data?.map((price) => price.time_close),
+            },
+            fill: {
+              gradient: { gradientToColors: ["#0be881"], stops: [0, 100] },
+              type: "gradient",
+            },
+            colors: ["#0fbcf9"],
+            tooltip: {
+              y: {
+                formatter: (value) => `$ ${value.toFixed(3)}`,
+              },
             },
           }}
         ></ApexChart>
