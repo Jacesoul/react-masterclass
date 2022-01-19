@@ -40,3 +40,7 @@
 - react-query 3번째 인자에 refetchInterval를 사용하면 해당 시간동안 refetch할때마다 코인의 가격을 바꿔준다. 
 - react의 제목을 바꾸기 위해 npm i react-helmet 설치 
 - react-helmet는 component인데 무엇을 render하던 그게 문서의 head로 가는것이다.
+- 코드챌린지 => 
+1. 홈으로 가는 버튼 만들기 
+2. price탭에서 좀더 많은 가격의 정보를 보여주기 
+3. 만들었던 line chart를 Candlestick chart로 변경(참고 : https://apexcharts.com/react-chart-demos/candlestick-charts/basic/)
