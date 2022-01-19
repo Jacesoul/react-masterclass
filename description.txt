@@ -37,3 +37,6 @@
 - react query는 데이터를 캐시에 저장해두기 때문에 갔던 url에 다시 돌아와도 로딩을 하지 않는다.
 - APEXCHARTS는 자바스크립트 chart library이다. 
 - npm install --save react-apexcharts apexcharts
+- react-query 3번째 인자에 refetchInterval를 사용하면 해당 시간동안 refetch할때마다 코인의 가격을 바꿔준다. 
+- react의 제목을 바꾸기 위해 npm i react-helmet 설치 
+- react-helmet는 component인데 무엇을 render하던 그게 문서의 head로 가는것이다.
